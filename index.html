@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Le Hijâb et le Dévoilement</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Marcellus&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Source+Sans+3:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-title="Présentation de l&#x27;ouvrage">
+<header class="top">
+  <button class="btn" id="menuBtn" aria-label="Ouvrir le sommaire">☰<span class="bl"> Sommaire</span></button>
+  <a class="ttl" href="index.html" style="color:inherit;text-decoration:none">Le Hijâb et le Dévoilement</a>
+  <button class="btn" id="fsDown" aria-label="Réduire le texte">A−</button>
+  <button class="btn" id="fsUp" aria-label="Agrandir le texte">A+</button>
+  <button class="btn" id="bmBtn" aria-label="Marquer ce passage">🔖<span class="bl"> Marquer</span></button>
+  <button class="btn" id="themeBtn" aria-label="Changer de thème">◐</button>
+  <div class="progress" id="prog"></div>
+</header>
+<div class="scrim" id="scrim" hidden></div>
+<div class="layout">
+<nav class="side" id="side" aria-label="Sommaire">
+  <h2>Mes marque-pages</h2>
+  <button class="btn resumeBtn" hidden>Reprendre la lecture</button>
+  <ul class="bm-list" id="bmList"></ul>
+  <h2 style="margin-top:1.2rem">Sommaire</h2>
+  <ol id="tocList">
+<li class="tc"><a href="index.html">Présentation de l'ouvrage</a></li>
+<li class="tp"><a href="01-epitre-i-le-hijab-et-le-devoilement-dans-le-livr.html">Épître I — Le hijâb et le dévoilement dans le Livre et la Sounnah</a></li>
+<li class="tc"><a href="02-le-danger-de-la-participation-de-la-femme-a-l-ho.html">Le danger de la participation de la femme à l'homme dans son domaine de travail</a></li>
+<li class="tp"><a href="03-introduction-de-l-auteur.html">Épître II — La quintessence au sujet de l'obligation du niqâb (Al-Lubâb fî fardiyyat an-niqâb)</a></li>
+<li class="tc"><a href="03-introduction-de-l-auteur.html">Introduction de l'auteur</a></li>
+<li class="tc"><a href="04-chapitre-premier-refutation-des-preuves-de-ceux.html">Chapitre premier — Réfutation des preuves de ceux qui disent que le visage et les mains ne sont pas ʿawra</a></li>
+<li class="tc"><a href="05-chapitre-deuxieme-les-preuves-de-l-obligation-du.html">Chapitre deuxième — Les preuves de l'obligation du niqâb</a></li>
+<li class="tc"><a href="06-chapitre-troisieme-deuxiemement-la-sounnah-proph.html">Chapitre troisième — Deuxièmement : la Sounnah prophétique purifiée</a></li>
+<li class="tc"><a href="07-chapitre-quatrieme-troisiemement-les-recits-beni.html">Chapitre quatrième — Troisièmement : les récits bénis rapportés des nobles Compagnons</a></li>
+<li class="tc"><a href="08-chapitre-cinquieme-quatriemement-les-recits-rapp.html">Chapitre cinquième — Quatrièmement : les récits rapportés des Successeurs</a></li>
+<li class="tc"><a href="09-chapitre-sixieme-cinquiemement-les-paroles-des-s.html">Chapitre sixième — Cinquièmement : les paroles des savants des quatre écoles sur le statut de la couverture du visage</a></li>
+<li class="tc"><a href="10-chapitre-septieme-sixiemement-citations-diverses.html">Chapitre septième — Sixièmement : citations diverses</a></li>
+<li class="tc"><a href="11-complement-la-musulmane-peut-elle-paraitre-devan.html">Complément — La musulmane peut-elle paraître devant la mécréante ?</a></li>
+<li class="tp"><a href="12-epitre-iii-la-tenue-de-la-femme-et-son-influence.html">Épître III — La tenue de la femme et son influence sur la société (Zayy al-mar'a wa atharuhu fî al-mujtamaʿ)</a></li>
+<li class="tc"><a href="13-la-solution.html">La solution</a></li>
+<li class="tp"><a href="14-avant-propos-de-l-epitre.html">Épître IV — La parole décisive au sujet de la femme et du hijâb (Fasl al-khitâb fî al-mar'a wa al-hijâb)</a></li>
+<li class="tc"><a href="14-avant-propos-de-l-epitre.html">Avant-propos de l'épître</a></li>
+<li class="tc"><a href="15-des-verites-qu-il-faut-exposer.html">Des vérités qu'il faut exposer</a></li>
+<li class="tc"><a href="16-la-femme.html">La femme</a></li>
+<li class="tc"><a href="17-le-hijab.html">Le hijâb</a></li>
+<li class="tc"><a href="18-l-obligation-du-hijab-pour-la-femme-musulmane.html">L'obligation du hijâb pour la femme musulmane</a></li>
+<li class="tc"><a href="19-conclusion.html">Conclusion</a></li>
+  </ol>
+</nav>
+<main>
+<div class="col">
+<section class="cover">
+  <p class="arT" lang="ar" dir="rtl">الحجاب والسفور في الكتاب والسنة</p>
+  <h1>Le hijâb et le dévoilement dans le Livre et la Sounnah</h1>
+  <p class="sub">Cheikh ʿAbd al-ʿAzîz ibn Bâz, suivi d'un recueil d'épîtres de plusieurs savants</p>
+  <p class="sub">Traduction française intégrale</p>
+  <button class="btn resume resumeBtn" hidden>Reprendre là où je m'étais arrêté</button>
+</section>
+
+<div class="intro">
+<h2>Présentation de l'ouvrage</h2>
+<dl>
+  <dt>Titre original</dt><dd>Al-Hijâb wa as-Sufûr fî al-Kitâb wa as-Sunna</dd>
+  <dt>Auteur principal</dt><dd>Cheikh ʿAbd al-ʿAzîz ibn ʿAbd Allâh ibn Bâz, alors président général des Directions des recherches scientifiques, de l'iftâ', de la daʿwa et de l'orientation au Royaume d'Arabie saoudite</dd>
+  <dt>Correction et notes</dt><dd>Al-Maktab as-Salafî li-Tahqîq at-Turâth (Dâr al-Kutub as-Salafiyya, Le Caire)</dd>
+  <dt>Édition</dt><dd>Dâr Ibn Zaydûn, Beyrouth, et Dâr al-Kutub as-Salafiyya, Le Caire — 1re édition, 1406 H / 1986</dd>
+  <dt>Contenu</dt><dd>Quatre épîtres sur le hijâb, le dévoilement (sufûr), la mixité (ikhtilât) et la présence de la femme dans le milieu de travail des hommes</dd>
+</dl>
+
+<p>Ce volume réunit autour d'une même question plusieurs textes de savants et d'auteurs contemporains : quelle couverture la Loi islamique demande-t-elle à la femme devant les hommes étrangers, et en particulier le visage et les mains doivent-ils être couverts ? Il s'ouvre sur l'épître du Cheikh Ibn Bâz, qui expose les versets du hijâb et les hadiths qui s'y rapportent. Vient ensuite une longue étude consacrée à l'obligation du niqâb, qui discute une à une les preuves de ceux qui permettent de découvrir le visage. Deux textes plus courts complètent l'ensemble : l'un traite des effets sociaux de la tenue féminine, l'autre des droits de la femme et des fondements du hijâb.</p>
+
+<p>Les auteurs s'appuient sur le Coran, la Sounnah, les récits des Compagnons et des Successeurs, et les avis des quatre écoles juridiques. Les notes de l'éditeur indiquent les sources des hadiths et précisent le jugement porté sur leurs chaînes de transmission.</p>
+
+<h2>Les quatre épîtres</h2>
+<div class="epitres">
+  <article>
+    <h3>Épître I — Le hijâb et le dévoilement dans le Livre et la Sounnah</h3>
+    <p class="meta">Cheikh ʿAbd al-ʿAzîz ibn Bâz</p>
+    <p>Le Cheikh rappelle l'obligation d'ordonner le bien et d'interdire le mal, puis commente les versets d'al-Ahzâb et d'an-Nûr sur le hijâb, le jilbâb et la situation des femmes âgées. Il met en garde contre l'exhibition, l'isolement avec une femme étrangère et l'imitation des non-musulmanes. Un second texte traite du danger de la mixité lorsque la femme travaille dans le domaine des hommes ; il cite aussi des auteurs occidentaux qui en reconnaissent les méfaits.</p>
+    <ul>
+      <li><a href="01-epitre-i-le-hijab-et-le-devoilement-dans-le-livr.html">Le hijâb et le dévoilement</a></li>
+      <li><a href="02-le-danger-de-la-participation-de-la-femme-a-l-ho.html">Le danger de la participation de la femme au travail des hommes</a></li>
+    </ul>
+  </article>
+  <article>
+    <h3>Épître II — Al-Lubâb fî fardiyyat an-niqâb</h3>
+    <p class="meta">Abû Musʿab Farîd ibn Amîn al-Hindâwî</p>
+    <p>C'est la partie la plus longue du volume. L'auteur examine d'abord onze arguments avancés pour permettre de découvrir le visage et les mains, dont le hadith d'Asmâ', le récit de la Khathʿamiyya et l'exégèse attribuée à Ibn ʿAbbâs ; il en discute surtout les chaînes de transmission. Il expose ensuite les preuves de l'obligation du niqâb : quatre versets, dix-sept hadiths, les récits des Compagnons et des Successeurs, les avis des écoles hanafite, malikite, shâfiʿite et hanbalite, et un ensemble de citations diverses. Un complément traite de la question de la femme musulmane devant une non-musulmane.</p>
+    <ul>
+      <li><a href="03-introduction-de-l-auteur.html">Introduction de l'auteur</a> · <a href="04-chapitre-premier-refutation-des-preuves-de-ceux.html">Réfutation des preuves contraires</a></li>
+      <li><a href="05-chapitre-deuxieme-les-preuves-de-l-obligation-du.html">Le Livre</a> · <a href="06-chapitre-troisieme-deuxiemement-la-sounnah-proph.html">La Sounnah</a> · <a href="07-chapitre-quatrieme-troisiemement-les-recits-beni.html">Les Compagnons</a> · <a href="08-chapitre-cinquieme-quatriemement-les-recits-rapp.html">Les Successeurs</a></li>
+      <li><a href="09-chapitre-sixieme-cinquiemement-les-paroles-des-s.html">Les quatre écoles</a> · <a href="10-chapitre-septieme-sixiemement-citations-diverses.html">Citations diverses</a> · <a href="11-complement-la-musulmane-peut-elle-paraitre-devan.html">Complément</a></li>
+    </ul>
+  </article>
+  <article>
+    <h3>Épître III — La tenue de la femme et son influence sur la société</h3>
+    <p class="meta">Docteur Muhsin ʿAbd al-Hamîd</p>
+    <p>L'auteur explique pourquoi l'islam impose une tenue décente : préserver l'équilibre psychologique de l'homme, protéger la famille et ne pas gaspiller les richesses dans les modes. Il propose ensuite une solution générale, par l'éducation, et une solution pratique : une tenue islamique adaptée aux femmes qui étudient et travaillent.</p>
+    <ul>
+      <li><a href="12-epitre-iii-la-tenue-de-la-femme-et-son-influence.html">L'influence de la tenue</a> · <a href="13-la-solution.html">La solution</a></li>
+    </ul>
+  </article>
+  <article>
+    <h3>Épître IV — La parole décisive au sujet de la femme et du hijâb</h3>
+    <p class="meta">Abû Bakr Jâbir al-Jazâ'irî, enseignant à l'Université islamique de Médine</p>
+    <p>Après six « vérités » sur la situation de la communauté musulmane, l'auteur présente les droits de la femme en islam. Il expose ensuite les douze moyens que la sourate an-Nûr établit contre la turpitude, puis les preuves coraniques de l'obligation du hijâb.</p>
+    <ul>
+      <li><a href="14-avant-propos-de-l-epitre.html">Avant-propos</a> · <a href="15-des-verites-qu-il-faut-exposer.html">Les six vérités</a> · <a href="16-la-femme.html">La femme et ses droits</a></li>
+      <li><a href="17-le-hijab.html">Le hijâb</a> · <a href="18-l-obligation-du-hijab-pour-la-femme-musulmane.html">L'obligation du hijâb</a> · <a href="19-conclusion.html">Conclusion</a></li>
+    </ul>
+  </article>
+</div>
+
+<h2>À propos de cette traduction</h2>
+<p>La traduction suit le texte arabe sans coupure ; les notes de bas de page de l'édition originale sont toutes traduites. Chaque citation coranique est d'abord donnée en arabe dans un bloc séparé, puis traduite en français ; le commentaire de l'auteur reprend ensuite dans un nouveau paragraphe. Le texte arabe des versets est reproduit tel qu'il figure dans l'édition. Lorsqu'il s'écarte du texte coranique, ou lorsqu'une note annoncée manque, une note du traducteur (NdT) le signale. Les renvois à des pages de l'édition arabe ont été remplacés par l'indication des passages concernés.</p>
+<p>Les termes techniques arabes utiles sont conservés en transcription : hijâb, niqâb, jilbâb, khimâr, tabarruj (exhibition), sufûr (dévoilement), ʿawra (partie du corps à couvrir), mahram, fitna (tentation), ainsi que les termes de la critique du hadith (mursal, munkar, hasan, sahîh).</p>
+
+<h2>Lire sur ce site</h2>
+<p>Chaque chapitre est une page. Le sommaire est à gauche sur ordinateur et s'ouvre par le bouton « Sommaire » sur téléphone. Touchez un numéro de note pour la lire sans quitter le texte. Le bouton « Marquer » enregistre le passage en cours dans vos marque-pages, et le site retient le dernier passage lu. Le site suit le mode clair ou sombre de votre appareil ; le bouton ◐ permet de changer.</p>
+
+<nav class="pager" aria-label="Chapitres"><a class="next" href="01-epitre-i-le-hijab-et-le-devoilement-dans-le-livr.html"><small>Commencer la lecture</small>Épître I — Le hijâb et le dévoilement</a></nav>
+</div>
+
+</div>
+</main>
+</div>
+<div class="pop" id="pop" hidden role="dialog" aria-label="Note"><button class="btn x" id="popX">Fermer</button><div id="popTxt"></div></div>
+<div class="toast" id="toast" hidden></div>
+<script src="assets/app.js"></script>
+</body>
+</html>
